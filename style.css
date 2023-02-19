@@ -14,7 +14,6 @@ html {
 body {
     background-image: url("https://gracious-spence-c50427.netlify.app/bg.jpg");
     background-size: cover;
-    background-repeat: no-repeat;
     font-family: 'Prompt', sans-serif;
 }
 
@@ -102,8 +101,6 @@ header {
 /* footer start */
 .footer {
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 2rem;
     justify-content: center;
     align-items: center;
@@ -149,3 +146,60 @@ header {
 }
 
 /* footer end */
+
+@media(max-width:785px) {
+    .youtube {
+        display: none;
+    }
+
+    header {
+        margin: 0rem 3rem;
+        justify-content: center;
+    }
+
+    .section {
+        margin: 2rem 3rem 5rem 3rem;
+
+    }
+
+    .text-paragraph h1 {
+        font-size: 3.6rem;
+        text-align: center;
+
+    }
+
+    .text-paragraph-2 p {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .footer {
+        display: block;
+
+
+    }
+
+    .footer .learn-more {
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem auto 0rem auto;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    .footer .social-media {
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem auto 0rem auto;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+
+}
